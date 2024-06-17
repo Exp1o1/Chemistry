@@ -46,6 +46,14 @@ You must run these commands on your server:
 git clone https://github.com/UseInterstellar/Interstellar
 cd Interstellar
 ```
+
+#### Ad-Free Deployment
+
+```bash
+git clone --branch Ad-Free https://github.com/UseInterstellar/Interstellar
+cd Interstellar
+```
+
 Next depending on your package manager, run one of the following commands:
 
 #### Bun
@@ -84,7 +92,6 @@ git pull --force --allow-unrelated-histories # This may overwrite your local cha
 
 <a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/UseInterstellar/Interstellar"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
 <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/UseInterstellar/Interstellar"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
-<a target="_blank" href="https://app.cyclic.sh/api/app/deploy/UseInterstellar/Interstellar"><img alt="Deploy to Cyclic" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg"></a>
 
 ### Deployment Alternatives
 

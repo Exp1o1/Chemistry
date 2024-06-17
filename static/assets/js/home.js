@@ -51,7 +51,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox") && localStorage.getItem
 // Particles
 document.addEventListener("DOMContentLoaded", (event) => {
   if (window.localStorage.getItem("Particles") === "true") {
-    var particlesConfig = {
+    const particlesConfig = {
       particles: {
         number: {
           value: 200,
@@ -189,9 +189,9 @@ function US() {
 SplashE.innerText = SplashT[SplashI]
 
 SplashE.addEventListener("click", US)
-
+// Random URL
 function getRandomURL() {
-  let randomURLS = [
+  const randomURLS = [
     "https://kahoot.it",
     "https://classroom.google.com",
     "https://drive.google.com",
@@ -205,7 +205,6 @@ function getRandomURL() {
     "https://khanacademy.org",
     "https://wikipedia.org",
     "https://dictionary.com",
-    // what if we added the hub here :trol:
   ]
   return randomURLS[randRange(0, randomURLS.length)]
 }
