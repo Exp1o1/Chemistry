@@ -5,7 +5,8 @@ const config = {
     interstellar: "idiot",
     Explol: "Margarita1",
     Yug: "ilikecoding",
-    Edy: "Queso"
+    Edy: "Queso",
+    Jesus: ¨4321¨
   },
 };
 
