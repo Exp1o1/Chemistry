@@ -6,7 +6,7 @@ const config = {
     Explol: "Margarita1",
     Yug: "ilikecoding",
     Edy: "Queso",
-    Jesus: ¨4321¨
+    Jesus: "4321"
   },
 };
 
